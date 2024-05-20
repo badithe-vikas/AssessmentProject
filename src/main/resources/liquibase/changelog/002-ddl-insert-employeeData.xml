@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+
+    <changeSet id="2" author="vikas">
+        <!-- Insert Data -->
+        <insert tableName="employee_details">
+            <column name="first_name" value="Alice"/>
+            <column name="last_name" value="Smith"/>
+            <column name="email" value="alice.smith@example.com"/>
+            <column name="mobile_number" value="1234567890"/>
+            <column name="doj" value="2023-04-01"/>
+            <column name="salary" value="20000"/>
+        </insert>
+        <insert tableName="employee_details">
+            <column name="first_name" value="Bob"/>
+            <column name="last_name" value="Johnson"/>
+            <column name="email" value="bob.johnson@example.com"/>
+            <column name="mobile_number" value="0987654321"/>
+            <column name="doj" value="2023-06-15"/>
+            <column name="salary" value="35000"/>
+        </insert>
+        <insert tableName="employee_details">
+            <column name="first_name" value="Charlie"/>
+            <column name="last_name" value="Brown"/>
+            <column name="email" value="charlie.brown@example.com"/>
+            <column name="mobile_number" value="1234509876"/>
+            <column name="doj" value="2023-01-10"/>
+            <column name="salary" value="75000"/>
+        </insert>
+        <insert tableName="employee_details">
+            <column name="first_name" value="Diana"/>
+            <column name="last_name" value="Prince"/>
+            <column name="email" value="diana.prince@example.com"/>
+            <column name="mobile_number" value="9876543210"/>
+            <column name="doj" value="2023-09-01"/>
+            <column name="salary" value="125000"/>
+        </insert>
+        <insert tableName="employee_details">
+            <column name="first_name" value="Eve"/>
+            <column name="last_name" value="Williams"/>
+            <column name="email" value="eve.williams@example.com"/>
+            <column name="mobile_number" value="1122334455"/>
+            <column name="doj" value="2023-03-20"/>
+            <column name="salary" value="250000"/>
+        </insert>
+        <insert tableName="employee_details">
+            <column name="first_name" value="Frank"/>
+            <column name="last_name" value="Miller"/>
+            <column name="email" value="frank.miller@example.com"/>
+            <column name="mobile_number" value="5566778899"/>
+            <column name="doj" value="2023-11-01"/>
+            <column name="salary" value="300000"/>
+        </insert>
+        <insert tableName="employee_details">
+            <column name="first_name" value="Grace"/>
+            <column name="last_name" value="Hopper"/>
+            <column name="email" value="grace.hopper@example.com"/>
+            <column name="mobile_number" value="6677889900"/>
+            <column name="doj" value="2023-07-01"/>
+            <column name="salary" value="350000"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
